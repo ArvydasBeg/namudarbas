@@ -179,6 +179,9 @@ main p {
   margin: 5;
   padding: 5px 0 5px 0;
 }
+.image {
+  margin: 50px;
+}
 
 /* readmore mygtukas  */
 .readmore {
