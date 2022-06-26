@@ -371,40 +371,6 @@ main section div span p:hover {
   padding-left: 20px;
 }
 
-@media only screen and (min-width: 768px) {
-  .dash {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  header div:nth-child(2) {
-    display: none;
-  }
-
-  main {
-    width: 60em;
-  }
-
-  .main .flex-container-2 {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-  }
-
-  .main img {
-    max-height: 80vh;
-    max-width: 80vw;
-  }
-}
 /* headeris */
 
 .flex-container {
@@ -770,4 +736,56 @@ main section div span p:hover {
 
 .patraukimas {
   padding-left: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .dash {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  header div:nth-child(2) {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .main .flex-container-2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .main img {
+    max-width: 80vw;
+  }
+
+  main input {
+    width: 200px;
+  }
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container-5 {
+    flex-direction: column;
+  }
+  .span3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .main-3 section div:first-child img {
+    width: 80vw;
+  }
 }
