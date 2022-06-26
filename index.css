@@ -766,20 +766,47 @@ main section div span p:hover {
     align-items: center;
     align-content: center;
   }
+  .main-img {
+    height: 300px;
+  }
 
   .main img {
     max-width: 80vw;
   }
+  .flex-container-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 25px 50px 25px;
+  }
+
+  h3 {
+    text-align: center;
+  }
 
   main input {
-    width: 100px;
+    width: 100%;
+    margin: 0;
   }
+  #fname {
+    padding: 0;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   .grid-container {
     display: flex;
     flex-direction: column;
   }
   .flex-container-5 {
     flex-direction: column;
+    padding: 20px 25px 20px 25px;
   }
   .span3 {
     display: grid;
