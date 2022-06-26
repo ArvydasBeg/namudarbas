@@ -405,3 +405,369 @@ main section div span p:hover {
     max-width: 80vw;
   }
 }
+/* headeris */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 20px 10px 20px;
+  height: 100px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 98%;
+  background-color: white;
+}
+
+header div a,
+header div span {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+header i {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+header div:last-child {
+  height: 54px;
+}
+
+/* subscribe */
+
+.subscribe {
+  background-color: rgb(170, 0, 96);
+  border-radius: 35px;
+  color: white;
+  height: 40px;
+  padding-top: 13px;
+  cursor: pointer;
+}
+
+.subscribe:hover {
+  box-shadow: 0 10px 10px 5px rgba(249, 135, 135, 0.297);
+}
+
+/* dropdown headeryje 1 */
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-height: 170px;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+/* dropdow hoveryje 2 */
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-height: 120px;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content2 {
+  display: block;
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* paieskos hoveris */
+
+.search {
+  color: rgba(0, 0, 0, 0.401);
+}
+
+.search:hover {
+  color: black;
+}
+
+/* mainas 1 */
+.main {
+  background-color: rgb(227, 227, 227);
+}
+
+.flex-container-2 {
+  display: flex;
+  flex-direction: row;
+  padding: 150px 50px 20px 45px;
+  justify-content: center;
+}
+/* teksto flexbox */
+
+.flex-container-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pagrindinis-tekstas {
+  padding-right: 40px;
+}
+
+main section img {
+  height: 450px;
+  border-radius: 20px;
+}
+
+h6 {
+  margin: 2px;
+  font-size: 15px;
+  color: rgb(170, 0, 96);
+}
+
+.bigsize {
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+}
+
+.bigsize:hover {
+  color: rgb(170, 0, 96);
+}
+
+main p {
+  margin: 5;
+  padding: 5px 0 5px 0;
+}
+
+/* readmore mygtukas  */
+.readmore {
+  display: block;
+  background-color: rgb(170, 0, 96);
+  border-radius: 35px;
+  color: white;
+  height: 25px;
+  width: 100px;
+  text-align: center;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.readmore:hover {
+  box-shadow: 0 10px 10px 5px rgba(249, 135, 135, 0.297);
+}
+
+/* mainas 2 */
+.flex-container-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 50px 0 30px 100px;
+}
+
+.main-img {
+  background-image: url(https://nftnow.com/wp-content/themes/am/assets/build/src/img/newsletter-bg-swirls.jpg);
+  height: 200px;
+}
+
+.main2-h6 {
+  color: white;
+  font-size: 15px;
+}
+
+main h3 {
+  color: white;
+  font-size: 25px;
+  margin: 10px 0 20px 0;
+}
+
+main input {
+  border-radius: 20px;
+  height: 30px;
+  width: 550px;
+  margin-right: 40px;
+  font-size: 12px grey;
+}
+.subscribe2 {
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  height: 30px;
+  width: 80px;
+  padding: 8px 50px 8px 50px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.subscribe2:hover {
+  background-color: rgb(27, 27, 27);
+}
+
+#fname {
+  padding-left: 20px;
+  border: none;
+}
+
+/* trecias mainas */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+}
+/* pirmas section */
+h2,
+h1 {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(170, 0, 96);
+}
+
+/* antras section */
+
+.section-2 {
+  padding: 20px 0 100px 0;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border: 1px solid;
+  border-radius: 25px;
+  background-color: rgb(91, 0, 0);
+  height: 100px;
+  width: 70%;
+}
+.item2 {
+  grid-column-start: 3;
+  grid-column-end: -1;
+
+  border: 1px solid;
+  border-radius: 25px;
+  background-color: rgb(0, 53, 91);
+  height: 100px;
+  width: 70%;
+}
+
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  border: 1px solid;
+  border-radius: 25px;
+  background-color: rgb(0, 91, 49);
+  height: 100px;
+  width: 70%;
+}
+.item4 {
+  grid-column-start: 2;
+  grid-column-end: -1;
+  border: 1px solid;
+  border-radius: 25px;
+  background-color: rgb(182, 136, 8);
+  height: 100px;
+  width: 70%;
+}
+
+.item {
+  color: white;
+  text-align: center;
+  border: none;
+  padding: 25px 0 25px 0;
+}
+
+.item:hover {
+  box-shadow: 0px 20px 20px grey;
+}
+
+.main-3 section:nth-child(2) div p {
+  margin: 0;
+  padding-top: 30px;
+  font-weight: bold;
+  color: rgb(222, 222, 222);
+}
+
+/* trecias section */
+.main-3 {
+  background-color: rgb(189, 189, 189);
+}
+
+.flex-container-5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main section div span img {
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+main section div span p {
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  color: rgb(95, 95, 95);
+  cursor: pointer;
+}
+
+main section div span p:hover {
+  box-shadow: 0px 5px 15px rgb(101, 102, 101);
+}
+
+.patraukimas {
+  padding-left: 20px;
+}
