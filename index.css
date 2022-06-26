@@ -126,6 +126,12 @@ header div:last-child {
   color: black;
 }
 
+.dash {
+  height: 80px;
+  width: 80px;
+  font-size: 50px;
+}
+
 /* mainas 1 */
 .main {
   background-color: rgb(227, 227, 227);
@@ -363,4 +369,39 @@ main section div span p:hover {
 
 .patraukimas {
   padding-left: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .dash {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  header div:nth-child(2) {
+    display: none;
+  }
+
+  main {
+    width: 60em;
+  }
+
+  .main .flex-container-2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .main img {
+    max-height: 80vh;
+    max-width: 80vw;
+  }
 }
