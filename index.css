@@ -818,7 +818,20 @@ main section div span p:hover {
   .dash {
     display: none;
   }
+  header {
+    width: 100vw;
+  }
+  header .flex-container {
+    justify-content: space-around;
+  }
+  header div img {
+    width: 120px;
+  }
 
+  header div a,
+  header div span {
+    font-size: 15px;
+  }
   .main .flex-container-2 {
     display: flex;
     flex-direction: column-reverse;
